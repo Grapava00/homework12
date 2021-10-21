@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script>
+	// 1. შევქმნა ყველა მარტივი ტიპის ცვლადი რაც ვისწავლეთ
+
+	let carName="volvo"
+	let carNumber=5;
+	let	carIsRed=false;
+	let	carIsYellow=true;
+	let carSpeed=null;
+	let carColor;
+
+	console.log(carName, carNumber, carIsRed, carIsYellow, carSpeed, carColor);
+
+	// 2. არითმეტიკული ოპერაციები მიმატება გამოკლება გაყოფა გამრავლება ყველაფერი რაც ვისწავლეთ
+
+	let appleNum=5;
+	let pearNum=10;
+
+	console.log(appleNum+pearNum, pearNum-appleNum, appleNum*pearNum, pearNum/appleNum, pearNum%appleNum);
+
+	// 3. სტრინგების კონკატენაცია + ით და სტრინგების კონკატენაცია `ბექტიკებით`
+
+    let colorFlower="white"
+    let typeFlower="camomile"
+
+    console.log(colorFlower+" "+typeFlower);
+    console.log(`${colorFlower} ${typeFlower}`);
+
+    // 4. მოცემულა მართკუთხედი სიგრძე ცვლადი = 7 და სიგანე = 5 (შექმენით 2 ცვლადი) გამოთვალეთ მართკუთხედის ფართობი ამ 2 ცვლადის გამოყენებით
+
+    let rectLength=7;
+    let rectHeight=5;
+
+    console.log(rectLength*rectHeight);
+
+    // 5. მოცემულია სამკუთხედის გვერდების სიგრძე 5, 6, 6 გამოვთვალოთ სამკუთხედის ფართობი
+
+    let trianglePerimeter=5+6+6;
+    let trianglePerimeterHalf=trianglePerimeter/2;
+    let triangleArea=Math.sqrt(trianglePerimeterHalf*(trianglePerimeterHalf-5)*
+    	(trianglePerimeterHalf-6)*(trianglePerimeterHalf-6));
+
+    console.log(triangleArea);
+
+    // 7. მოცემულია წრის რადიუსი რომელიც არის 7 გამოვთვალოთ წრის ფართობი
+
+    let circleRadius=7;
+
+     console.log(Math.PI * Math.pow(circleRadius, 2));
+</script>
+</body>
+</html>
